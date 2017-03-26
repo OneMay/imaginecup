@@ -58,10 +58,19 @@ html {
 #header header #nav ul li {
   margin-right: 10.7rem;
   float: left;
+  background: url('../../image/hover.png');
+  background-repeat: no-repeat;
+  background-position: -275px 45px;
+  transition: all 1s ease;
+}
+#header header #nav ul li:hover {
+  background-repeat: no-repeat;
+  background-position: 0px 45px;
+  transition: all 1s ease;
 }
 #header header #nav ul li a {
   color: #fff;
-  font-size: 3.429rem;
+  font-size: 2.429rem;
   font-weight: 300;
 }
 #header header #nav ul li:last-child {
@@ -74,7 +83,7 @@ html {
   width: 100%;
   z-index: 1;
   display: inline-block;
-  opacity: 0.9;
+  height: 1075px;
 }
 #header #rotation img {
   width: 100%;

@@ -28,9 +28,18 @@ html{
 				li{
 					margin-right: 10.7rem;
 					float: left;
+					background: url('../../image/hover.png');
+				     background-repeat: no-repeat;
+				    background-position: -275px 45px;
+				    transition: all 1s ease;
+					&:hover{
+						 background-repeat: no-repeat;
+					    background-position: 0px 45px;
+					    transition: all 1s ease;
+					}
 					a{
 						color:#fff;
-						font-size: 3.429rem;
+						font-size: 2.429rem;
 						font-weight: 300;
 					}
 					&:last-child{
@@ -47,7 +56,7 @@ html{
 		width: @default_width;
 		z-index: 1;
 		display: inline-block;
-		opacity: 0.9;
+		height: 1075px;
 		img{
 			width: @default_width;
 			z-index: 0;
